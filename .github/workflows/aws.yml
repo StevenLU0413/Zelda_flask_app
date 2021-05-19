@@ -57,7 +57,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
     -name: Test with pytest
-     working-directory: ./scr/foo
+     working-directory: ./Zelda_flask_app
      run: |
       pytest
 
